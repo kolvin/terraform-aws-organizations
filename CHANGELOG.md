@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/kolvin/terraform-aws-organizations/compare/v1.0.0...v1.1.0) (2022-08-18)
+
+
+### Features
+
+* **org:** consume inputs to create many accounts to one org ([2911326](https://github.com/kolvin/terraform-aws-organizations/commit/291132639322a0fc279143d269fee10815401cf2))
+
 # 1.0.0 (2022-08-15)
 
 
