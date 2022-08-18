@@ -8,4 +8,4 @@
 
 # terraform-aws-organizations
 
-terraform module to manage aws terraform-aws-organizations
+terraform module to manage many accounts to one AWS Organizations
