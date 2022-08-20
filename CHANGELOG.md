@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/kolvin/terraform-aws-organizations/compare/v1.1.0...v1.1.1) (2022-08-20)
+
+
+### Bug Fixes
+
+* **org:** lifecycle ignore roles_names on accounts ([2ed8a5f](https://github.com/kolvin/terraform-aws-organizations/commit/2ed8a5fbbf73a98db142ef30c184c302ac71e321))
+
 # [1.1.0](https://github.com/kolvin/terraform-aws-organizations/compare/v1.0.0...v1.1.0) (2022-08-18)
 
 
