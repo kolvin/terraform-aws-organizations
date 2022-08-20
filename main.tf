@@ -14,4 +14,9 @@ resource "aws_organizations_account" "account" {
   email                      = each.value.email
   iam_user_access_to_billing = each.value.iam_user_access_to_billing
   role_name                  = "OrgAccessRole"
+
+  # There is no AWS Organizations API for reading role_name
+  lifecycle {
+    ignore_changes = ["role_name"]
+  }
 }
