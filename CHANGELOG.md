@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/kolvin/terraform-aws-organizations/compare/v1.1.1...v1.1.2) (2022-08-20)
+
+
+### Bug Fixes
+
+* **org:** correct syntax for lifecycle ignore ([b0d6a25](https://github.com/kolvin/terraform-aws-organizations/commit/b0d6a25ba6195303cbaedb7c9a52a418d72c7088))
+
 ## [1.1.1](https://github.com/kolvin/terraform-aws-organizations/compare/v1.1.0...v1.1.1) (2022-08-20)
 
 
