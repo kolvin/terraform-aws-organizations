@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/kolvin/terraform-aws-organizations/compare/v1.1.3...v1.1.4) (2022-08-25)
+
+
+### Bug Fixes
+
+* **org:** support relation between account and org ([d788a85](https://github.com/kolvin/terraform-aws-organizations/commit/d788a85046efbedb8430b025dac8b617e7f7b78f))
+
 ## [1.1.3](https://github.com/kolvin/terraform-aws-organizations/compare/v1.1.2...v1.1.3) (2022-08-20)
 
 
