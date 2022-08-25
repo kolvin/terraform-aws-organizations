@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/kolvin/terraform-aws-organizations/compare/v1.1.4...v1.1.5) (2022-08-25)
+
+
+### Bug Fixes
+
+* **org:** reference correct collection of locals ([51278a5](https://github.com/kolvin/terraform-aws-organizations/commit/51278a528308adc389673d0ad13ea23f54e4f85c))
+
 ## [1.1.4](https://github.com/kolvin/terraform-aws-organizations/compare/v1.1.3...v1.1.4) (2022-08-25)
 
 
