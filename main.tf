@@ -12,6 +12,7 @@ resource "aws_organizations_account" "account" {
 
   name                       = each.value.account_name
   email                      = each.value.email
+  parent_id                  = each.value.org_unit
   iam_user_access_to_billing = each.value.iam_user_access_to_billing
   role_name                  = "OrgAccessRole"
 
