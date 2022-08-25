@@ -1,7 +1,7 @@
 resource "aws_organizations_organization" "this" {}
 
 resource "aws_organizations_organizational_unit" "this" {
-  for_each = local.organizations_units
+  for_each = local.organization_units
 
   name      = each.value
   parent_id = aws_organizations_organization.this.id
