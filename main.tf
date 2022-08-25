@@ -8,7 +8,7 @@ resource "aws_organizations_organizational_unit" "this" {
 }
 
 resource "aws_organizations_account" "account" {
-  for_each = local.organizations_accounts
+  for_each = local.organization_accounts
 
   name                       = each.value.account_name
   email                      = each.value.email
