@@ -1,3 +1,10 @@
+## [1.1.8](https://github.com/kolvin/terraform-aws-organizations/compare/v1.1.7...v1.1.8) (2022-08-25)
+
+
+### Bug Fixes
+
+* **org:** reference resolve bad input ref ([d279d75](https://github.com/kolvin/terraform-aws-organizations/commit/d279d757e307bb8159ed884dd3ed2a212f064290))
+
 ## [1.1.7](https://github.com/kolvin/terraform-aws-organizations/compare/v1.1.6...v1.1.7) (2022-08-25)
 
 
