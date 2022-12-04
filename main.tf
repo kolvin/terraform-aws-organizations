@@ -1,4 +1,8 @@
-resource "aws_organizations_organization" "this" {}
+resource "aws_organizations_organization" "this" {
+  aws_service_access_principals = var.organization.service_access_principals
+  enabled_policy_types          = var.organization.enabled_policy_types
+  feature_set                   = var.organization.feature_set
+}
 
 resource "aws_organizations_organizational_unit" "this" {
   for_each = local.organization_units

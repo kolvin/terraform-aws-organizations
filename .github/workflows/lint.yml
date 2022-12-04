@@ -4,4 +4,4 @@ on: push
 
 jobs:
   lint:
-    uses: kolvin/workflows/.github/workflows/terraform-module-lint.yaml@v1.5.0
+    uses: kolvin/workflows/.github/workflows/terraform-module-lint.yaml@v1.5.1

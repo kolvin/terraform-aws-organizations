@@ -3,6 +3,12 @@
 ## Contents
 
 - [terraform-aws-organizations](#terraform-aws-organizations)
+  - [Requirements](#requirements)
+  - [Providers](#providers)
+  - [Modules](#modules)
+  - [Resources](#resources)
+  - [Inputs](#inputs)
+  - [Outputs](#outputs)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -13,13 +19,16 @@ terraform module to manage many accounts to one AWS Organizations
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
-No requirements.
+| Name | Version |
+|------|---------|
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.2 |
+| <a name="requirement_aws"></a> [aws](#requirement\_aws) | ~> 4.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | n/a |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | ~> 4.0 |
 
 ## Modules
 
@@ -38,6 +47,7 @@ No modules.
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_accounts"></a> [accounts](#input\_accounts) | n/a | <pre>list(object({<br>    account_name               = string<br>    email                      = string<br>    iam_user_access_to_billing = string<br>    org_unit                   = string<br>  }))</pre> | n/a | yes |
+| <a name="input_organization"></a> [organization](#input\_organization) | n/a | <pre>object({<br>    service_access_principals = list(string)<br>    enabled_policy_types      = list(string)<br>    feature_set               = string<br>  })</pre> | <pre>{<br>  "enabled_policy_types": [<br>    "SERVICE_CONTROL_POLICY"<br>  ],<br>  "feature_set": "ALL",<br>  "service_access_principals": []<br>}</pre> | no |
 
 ## Outputs
 
