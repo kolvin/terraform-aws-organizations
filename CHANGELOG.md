@@ -1,3 +1,15 @@
+# [1.2.0](https://github.com/kolvin/terraform-aws-organizations/compare/v1.1.8...v1.2.0) (2022-12-04)
+
+
+### Bug Fixes
+
+* **ci:** bump workflow version ([c497825](https://github.com/kolvin/terraform-aws-organizations/commit/c497825e7f6be7acae75b1596df98bce754f8de1))
+
+
+### Features
+
+* allow setting organizations scp, feature_set + enabled policies via module ([82af1a5](https://github.com/kolvin/terraform-aws-organizations/commit/82af1a57598ae804abb357191925a70f267d5f85))
+
 ## [1.1.8](https://github.com/kolvin/terraform-aws-organizations/compare/v1.1.7...v1.1.8) (2022-08-25)
 
 
