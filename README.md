@@ -3,6 +3,12 @@
 ## Contents
 
 - [terraform-aws-organizations](#terraform-aws-organizations)
+  - [Requirements](#requirements)
+  - [Providers](#providers)
+  - [Modules](#modules)
+  - [Resources](#resources)
+  - [Inputs](#inputs)
+  - [Outputs](#outputs)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
